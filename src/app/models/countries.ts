@@ -1,4 +1,4 @@
-/* Interface para definir o tipo de objeto que vou extrair do Json, do link url mundo*/ 
+/* Interface para definir o tipo de objeto que vou extrair do Json*/ 
 export interface Countries {
     Country: string,
     CountryCode: string,

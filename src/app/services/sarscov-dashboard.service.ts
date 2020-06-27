@@ -10,8 +10,8 @@ import { Mundo } from '../models/mundo';
   providedIn: 'root'
 })
 export class SarscovDashboardService {
-  urlBrasil = 'https://api.covid19api.com/country/brazil/status/confirmed?from=2020-03-01T00:00:00Z&to=2020-07-01T00:00:00Z'; // api rest  casos Brasil
-  urlMundo = 'https://api.covid19api.com/summary' /* Cas=os no mundo*/
+  urlBrasil = 'https://api.covid19api.com/country/brazil/status/confirmed?from=2020-03-01T00:00:00Z&to=2020-07-01T00:00:00Z'; // link para acessar os casos no Brasil
+  urlMundo = 'https://api.covid19api.com/summary' /* Casos no mundo*/
   constructor(private httpClient: HttpClient) { }
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
