@@ -1,0 +1,12 @@
+div,h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    float:center;
+}
+.card{
+    width: 100%;
+}
+body{
+  background-color: #00909e;
+}
