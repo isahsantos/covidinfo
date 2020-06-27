@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
-/*import par utilização do component header */
+/*import par utilização do component header e footer */
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
